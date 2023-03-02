@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Assignmnet2 {
         
-    public static void main(String [] args) {
+    public static void main(String [] args) throws CloneNotSupportedException {
         
         Animal[] list = new Animal[5];
         list[0] = new Chicken();
