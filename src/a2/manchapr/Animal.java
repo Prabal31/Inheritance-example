@@ -17,15 +17,15 @@ public abstract class Animal implements Comparable<Animal>, Cloneable {
     public abstract String sound();
     
     @Override
-    public int compareTo(Animal other) {
+    public int compareTo(Animal o) {
         
-        if (this.weight < other.weight) {
+        if (this.weight < o.weight) {
             
             return -1;
             
         } 
         
-        else if (this.weight > other.weight) {
+        else if (this.weight > o.weight) {
             
             return 1;
             
