@@ -8,6 +8,7 @@ public interface Edible {
 class Fruit implements Edible {
     
     @Override
+    
     public void howToEat() {
         
         System.out.println("Eat the fruit");
@@ -15,13 +16,16 @@ class Fruit implements Edible {
 }
 
 class Chicken extends Animal implements Edible {
+    
     @Override
+    
     public String sound() {
         
         return "cookcook";
     }
 
     @Override
+    
     public void howToEat() {
         
         System.out.println("Cook and eat");
