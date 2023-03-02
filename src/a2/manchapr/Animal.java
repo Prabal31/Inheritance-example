@@ -2,7 +2,7 @@ package a2.manchapr;
 
 public abstract class Animal implements Comparable<Animal>, Cloneable {
     
-    double weight;
+    private double weight;
     
     public double getWeight() {
         
