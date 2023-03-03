@@ -1,7 +1,5 @@
 package a2.manchapr;
 
-import java.util.*;
-
 public class Assignmnet2 {
         
     public static void main(String [] args) throws CloneNotSupportedException {
@@ -22,7 +20,7 @@ public class Assignmnet2 {
         
         list[4] = (Animal)(list[1].clone());
         
-        Arrays.sort(list);
+        java.util.Arrays.sort(list);
         
         for (int i = 0; i < list.length; i++) {
             
