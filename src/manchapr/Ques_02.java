@@ -1,4 +1,4 @@
-package a2.manchapr;
+package manchapr;
 
 public class Ques_02 {          //class Ques_02
     

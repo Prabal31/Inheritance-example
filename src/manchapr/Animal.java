@@ -1,4 +1,4 @@
-package a2.manchapr;
+package manchapr;
 
 public abstract class Animal implements Comparable<Animal>, Cloneable {
    //Animal class wwhich implements comparable and cloneable classes

@@ -1,4 +1,4 @@
-package a2.manchapr;
+package manchapr;
 
 
 //Class name point which implements comparable and cloneable interfaces
