@@ -69,30 +69,22 @@ public class Point implements Comparable<Point>, Cloneable{
 
     @Override
     public boolean equals(Object obj) {
-        
         if (this == obj) {
-            
             return true;
         }
         if (obj == null) {
-            
             return false;
         }
         if (getClass() != obj.getClass()) {
-            
             return false;
         }
         final Point other = (Point) obj;
-        
         if (Double.doubleToLongBits(this.w) != Double.doubleToLongBits(other.w)) {
-            
             return false;
         }
-        
         return Double.doubleToLongBits(this.z) == Double.doubleToLongBits(other.z);
     }
-    
-   
+
     //override clone method to clone the object
     @Override
     public Object clone() throws CloneNotSupportedException {  

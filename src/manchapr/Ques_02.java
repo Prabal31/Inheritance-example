@@ -29,5 +29,7 @@ public class Ques_02 {          //class Ques_02
         
         //printing the value of p3 using to string
         System.out.println(p3);
+        
     }
+    
 }
